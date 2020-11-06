@@ -11,4 +11,4 @@ jobs:
       - name: print issue description
         run: |
           curl --url https://api.github.com/repos/${{ github.repository }}/issues \
-          -- header 'content-type: application/json'
+          --header 'content-type: application/json'
